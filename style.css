@@ -77,7 +77,7 @@ footer {
     padding: 0;
   }
 }
-@media screen and (max-width: 480px), (orientation: landscape) {
+@media screen and (max-width: 480px), (orientation: portrait) {
   .logo img {
     width: 75px;   
   }
