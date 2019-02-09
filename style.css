@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
 }
-body {
+html, body {
   font-family: arial;
+  font-size: 16px;
   padding: 10px;
   background-color: #f1f1f1;
 }
@@ -11,12 +12,14 @@ header {
   text-align: center;
   background-color: white;
 }
-header h1 {
-  font-size: 50px;
-  line-height: 0;
+h1 {
+  font-size: 2rem;
 }
 header p {
-    margin: 5;
+   margin: 5;
+}
+p, a {
+  font-siz: 1rem;
 }
 #topnav {
   background-color: #333;
