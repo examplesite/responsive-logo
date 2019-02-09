@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: arial;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+header {
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+}
+header h1 {
+  font-size: 50px;
+  line-height: 0;
+}
+header p {
+    margin: 5;
+}
+#topnav {
+  background-color: #333;
+}
+#topnav a {
+  text-decoration: none;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  display: inline-block;
+}
+#link_4 {
+  float: right;
+}
+#topnav a:hover {
+  color: black;
+  background-color: #ddd;
+}
+main {
+  width: 75%;
+  float: left;
+}
+#sidebar {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+article, .card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+article .fakeimage {
+  height: 200px;
+  width: 100%;
+  background-color: #aaa;
+  padding: 20px;
+}
+.card .fakeimage {
+  height: 100px;
+  background-color: #aaa;
+  padding: 20px;
+}
+footer {
+  text-align: center;
+  background-color: #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  main, #sidebar {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo img {
+    width: 75px;   
+  }
+  #topnav a {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+  #link_4 {
+    float: none;
+  }
+}
